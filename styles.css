@@ -1,1 +1,59 @@
 /*  your css code here. If applicable */
+
+		body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            width: 200px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .card img {
+            width: 100%;
+            max-height: 150px;
+            object-fit: cover;
+        }
+
+        .card h1 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .price {
+            font-size: 18px;
+            color: #007acc;
+            margin: 5px 0;
+        }
+
+        .description {
+            font-size: 14px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .buy-button {
+            padding: 10px 20px;
+            background-color: #007acc;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .buy-button:hover {
+            background-color: #005fa0;
+        }
